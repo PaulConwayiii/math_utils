@@ -20,16 +20,6 @@ def calculate():
     lbl_cross_x_res["text"] = '{:.6f}'.format(cross_x)
     lbl_cross_y_res["text"] = '{:.6f}'.format(cross_y)
     lbl_cross_z_res["text"] = '{:.6f}'.format(cross_z)
-    """
-    x_1 = float(ent_ind_var_1.get())
-    x_2 = float(ent_ind_var_2.get())
-    x_i = float(ent_ind_var_i.get())
-    y_1 = float(ent_de_var_1.get())
-    y_2 = float(ent_de_var_2.get())
-    # Linear interpollation formula
-    y_i = y_1 + ((x_i - x_1) * (y_2 - y_1) / (x_2 - x_1))
-    lbl_de_var_r["text"] = '{:.6f}'.format(y_i)
-    """
 
 
 # Creating window
